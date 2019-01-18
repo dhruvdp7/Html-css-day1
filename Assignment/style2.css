@@ -1,0 +1,39 @@
+body{
+	background-image: url("signup.jpeg");
+}
+p{
+	color: #8D9440;
+}
+h1{
+	color: #7F4145;
+}
+.main{
+	background-image: url("1.jpg");
+	color: #D5AE41;
+	border-style: double;
+	border-color: blue;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-left: 100px;
+	background-color:#a3e4d7;  
+	padding-bottom:20px;
+}
+.sub{
+	display: flex;
+	flex-wrap: nowrap;
+
+}
+.labels{
+	width: 30%
+}
+.values{
+	width: 70%
+}
+.btn{
+	background-color:#DBB1CD;
+	border-radius: 8px;
+	size: 5px
+}
+
