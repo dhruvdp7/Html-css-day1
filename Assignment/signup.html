@@ -8,70 +8,108 @@
 	<form action="#" class="form">
 	<div class="main">
 		<h1>Sign Up</h1>
-		<p>Please fill this form</p>
+		<p><b>Please fill this form</b></p>
 		<hr>
-		<div class="sub">
-			<div class="labels">
-				<label for="name"><b>Name:</b></label><br><br><br>
-				<label for="address"><b>Address:</b></label><br><br><br>
-				<label for="email"><b>Email:</b></label><br><br><br>
-				<label for="gender"><b>Gender:</b><br><br>
-				<label for="date"><b>Date Of Birth:</b></label><br><br><br>
-				<label for="mobile"><b>Mobile Number:</b></label><br><br><br>
-				<label for="lang"><b>Select Languages:</b></label><label><br><br><br>
-				<label for="countries"><b>Select Country:</b></label><br><br><br>
-				<label for="Image"><b>Choose image:</b></label><br><br><br>
-			</div>
+			<table class=table cellpadding="7px">
+			<tr>
+				<td> 
+					<label for="name"><b>Name:</b></label>
+				</td>
+				<td>
+					<input type="text" placeholder="Enter Name" name="name" size="30" required>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label for="address"><b>Address:</b></label>
+				</td>
+				<td>
+					<textarea rows="2" cols="24"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label for="email"><b>Email:</b></label>
+				</td>
+
+				<td>
+					<input type="email" placeholder="Enter Email" name="email" size="30" required>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label for="gender"><b>Gender:</b>
+				</td>
+				<td>
+					Male<input type="radio" name="radio"> 
+					Female<input type="radio" name="radio">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label for="date"><b>Date Of Birth:</b></label>
+				</td>
+				<td>
+					<input type="date" required> 
+				</td>
+			</tr>
 
 
-			<div class="values">
-		
-				<input type="text" placeholder="Enter Name" name="name" required> <br><br>	
+			<tr>
+				<td>
+					<label for="mobile"><b>Mobile Number:</b></label>
+				</td>
 
-				<textarea rows="2" cols="30"></textarea><br><br>
-				<input type="email" placeholder="Enter Email" name="email" required> <br><br>
+				<td>
+					<input type="text" placeholder="10 Digit Number	" required>
+				</td>
+			</tr>
 
-       			 	<label for="male">Male</label>
+			<tr>
+				<td>
+					<label for="lang"><b>Select Languages:</b></label>
+				</td>
 
-				<input type="radio" name="radio">    
+				<td>
+					Hindi <input type="checkbox" name="Hindi"> 
+					English<input type="checkbox" name="English">
+					French<input type="checkbox" name="French"> 
+				</td>
+			</tr>
 
-				<label for="female">Female</label> 
+			<tr>
+				<td>
+					<label for="countries"><b>Select Country:</b></label>
+				</td>
 
-				<input type="radio" name="radio">
+				<td>
+					<select>
+					<option value="Australia">Australia</option>
+					<option value="India">India</option>
+					<option value="japan">Japan</option>
+					<option value="russia">russia</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="Image"><b>Choose image:</b></label>	
+				</td>
+				<td>
+					<input type="file" name="file">
+				</td>
+			</tr>
 
-				<label for="other">Other</label> 
-
-				<input type="radio" name="radio"><br><br>
-
-			
-				<input type="date" required> <br><br><br>
-
-		
-				<input type="text" placeholder="10 Digit Number	" required><br><br>
-
-	
-				<input type="checkbox" name="Hindi"> Hindi
-
-		
-				<input type="checkbox" name="English"> English
-
-		
-				<input type="checkbox" name="French"> French <br><br><br>
-
-		
-				<select>
-				<option value="Australia">Australia</option>
-				<option value="India">India</option>
-				<option value="japan">Japan</option>
-				<option value="russia">russia</option>
-				</select><br><br>
-
-			
-				<input type="file" name="file"><br><br>
-				<input type="submit" name="submit" value="Submit" class="btn">
-				</div>
-				</div>
-			</div>   
-		</form> 
-	</body> 
-</html>
+			<tr>
+				<td><input type="button" name="clear" value="Clear" class="btn" id="clr"></td>
+				<td><input type="submit" name="submit" value="Submit" class="btn" id="sub"></td>
+			</tr>
+		</table>
+		</div>   
+	</form> 
+</body> 
+</html

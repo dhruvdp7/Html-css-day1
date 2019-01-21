@@ -3,6 +3,7 @@
 <head>
 	<title>Login Page</title>
 	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<marquee><img src="welcome.jpeg"></marquee>
@@ -10,20 +11,33 @@
 		<h2>Login</h2>
 
 		<form action="#">
+			<center>
+				<table>
+				<tr>
+					<td> <label for="email"><b>Enter Your Email:</b> </label></td>
+					<td><input type="Email" name="mail" placeholder="abc@xyz.com" required> </td>
+				</tr>
+				<tr>
+					<td><label for="Password"><b>Enter Password:</b></label></td>
+					<td><input type="Password" name="pass" placeholder="********" required> </td>
+				</tr>
 
-		<label for="email"><b>Enter Your Email:</b> 
-		<input type="Email" name="mail" placeholder="abc@xyz.com" required> <br><br>
-
-		<label for="Password"><b>Enter Password:</b></label>
-		<input type="Password" name="pass" placeholder="********" required> <br><br>
-
-		<input type="submit" name="sub" value="continue"><br><br>
+				<tr>
+					<td>
+					</td>
+					<td><input type="submit" name="sub" value="continue"><br><br></td>
+				</tr>
+				</table> 
+			</center>
 
 		<b>Don't have an account?</b>
 		<a href="signup.html">
-		<input type="submit" value="Sign Up"><br><br>
-		<a href="www.gmail.com">Sign in using Google Account</a>
+		<input type="button" value="Sign Up"><br><br>
 		</a>
+		
+		<font color="red"> Sign in using </font>
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-google"></a>
 	</div>	
 </form>
 </body>

@@ -3,13 +3,14 @@ body{
 }
 p{
 	color: #8D9440;
+	
 }
 h1{
-	color: #7F4145;
+	color: #9E1030;
 }
 .main{
 	background-image: url("1.jpg");
-	color: #D5AE41;
+	color:#343148;
 	border-style: double;
 	border-color: blue;
 	margin-top: 20px;
@@ -19,21 +20,14 @@ h1{
 	padding-left: 100px;
 	background-color:#a3e4d7;  
 	padding-bottom:20px;
+	height: 600px;
+	font-size:20px;
 }
-.sub{
-	display: flex;
-	flex-wrap: nowrap;
 
-}
-.labels{
-	width: 30%
-}
-.values{
-	width: 70%
-}
 .btn{
-	background-color:#DBB1CD;
-	border-radius: 8px;
-	size: 5px
+	font-size: 16px;
+	border-radius: 4px;
+	background-color: #BFD641;
 }
+
 

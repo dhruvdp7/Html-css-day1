@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #666;
+  padding: 5px;
+  text-align: right;
+  font-size: 20px;
+  color: white;
+  height: 180px;
+}
+
+
+
+#p1{
+	color: cyan;
+}
+.qa{
+	float: left;
+}
+.card{
+	margin-left: 20px;
+	overflow: auto;
+	width:130px;
+	float: right;
+}
+.div2{
+
+	text-align: right-bottom;
+	word-spacing: 10px;
+	font-size: 25px;
+	color: red;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 450px;
+  background: #ccc;
+  padding: 20px;
+
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 450px; 
+}
+
+footer {
+  background-color: #E8B5CE	;
+  padding: 10px;
+  word-spacing: 30px;
+
+
+  text-align: center;
+  
+}
