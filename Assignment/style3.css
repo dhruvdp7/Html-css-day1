@@ -18,6 +18,7 @@ header {
 }
 .qa{
 	float: left;
+	width: 300px;
 }
 .card{
 	margin-left: 20px;
